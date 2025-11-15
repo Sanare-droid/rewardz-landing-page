@@ -1,10 +1,10 @@
-import HeroSection from "@/components/HeroSection";
-import SecuritySection from "@/components/SecuritySection";
-import FeaturesSection from "@/components/FeaturesSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
-import DownloadSection from "@/components/DownloadSection";
-import CommunitySection from "@/components/CommunitySection";
-import Footer from "@/components/Footer";
+import HeroSection from "@/HeroSection";
+import SecuritySection from "@/SecuritySection";
+import FeaturesSection from "@/FeaturesSection";
+import HowItWorksSection from "@/HowItWorksSection";
+import DownloadSection from "@/DownloadSection";
+import CommunitySection from "@/CommunitySection";
+import Footer from "@/Footer";
 
 const Index = () => {
   return (
