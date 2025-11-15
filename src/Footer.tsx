@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li><Link to="/downloads" className="hover:text-primary-foreground transition-colors">Get the App</Link></li>
               <li><a href="#" className="hover:text-primary-foreground transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</Link></li>
               <li><a href="#" className="hover:text-primary-foreground transition-colors">Terms of Use</a></li>
             </ul>
           </div>
