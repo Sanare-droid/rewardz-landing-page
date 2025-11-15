@@ -2,21 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light;
-}
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 204 60% 98%;
+    --foreground: 204 24% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 204 24% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 204 24% 20%;
+    --primary: 194 79% 33%; /* #0E5C7B */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 168 30% 72%; /* #B4D9D5 */
+    --secondary-foreground: 194 79% 20%;
+    --muted: 204 16% 90%;
+    --muted-foreground: 204 16% 40%;
+    --accent: 140 70% 82%; /* #B9F0C8 */
+    --accent-foreground: 158 39% 30%;
+    --destructive: 0 72% 52%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 204 20% 86%;
+    --input: 204 20% 86%;
+    --ring: 194 79% 33%;
+    --radius: 0.75rem;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
-  background-color: #f5f7f9;
-}
+    --sidebar-background: 204 60% 98%;
+    --sidebar-foreground: 204 24% 20%;
+    --sidebar-primary: 194 79% 33%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 140 70% 82%;
+    --sidebar-accent-foreground: 158 39% 30%;
+    --sidebar-border: 204 20% 86%;
+    --sidebar-ring: 194 79% 33%;
+  }
 
-#root {
-  min-height: 100vh;
+  .dark {
+    color-scheme: dark;
+    --background: 204 24% 10%;
+    --foreground: 204 10% 96%;
+    --card: 204 24% 12%;
+    --card-foreground: 204 10% 96%;
+    --popover: 204 24% 12%;
+    --popover-foreground: 204 10% 96%;
+    --primary: 194 79% 45%;
+    --primary-foreground: 204 24% 10%;
+    --secondary: 194 25% 25%;
+    --secondary-foreground: 204 10% 96%;
+    --muted: 204 17% 18%;
+    --muted-foreground: 204 10% 72%;
+    --accent: 158 39% 35%;
+    --accent-foreground: 204 10% 96%;
+    --destructive: 0 68% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 204 17% 20%;
+    --input: 204 17% 20%;
+    --ring: 194 79% 45%;
+
+    --sidebar-background: 204 24% 10%;
+    --sidebar-foreground: 204 10% 96%;
+    --sidebar-primary: 194 79% 45%;
+    --sidebar-primary-foreground: 204 24% 10%;
+    --sidebar-accent: 158 39% 35%;
+    --sidebar-accent-foreground: 204 10% 96%;
+    --sidebar-border: 204 17% 20%;
+    --sidebar-ring: 194 79% 45%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
 }
 
