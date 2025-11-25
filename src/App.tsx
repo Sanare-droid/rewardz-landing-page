@@ -17,6 +17,7 @@ const App = () => {
         <Route path="/admin" element={<AdminAccess />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<TermsOfUse />} />
+        <Route path="/terms-of-service" element={<TermsOfUse />} />
         <Route path="/beta-program" element={<BetaTestingAgreement />} />
         <Route path="/owner/*" element={<OwnerRoutes />} />
         <Route path="*" element={<NotFound />} />

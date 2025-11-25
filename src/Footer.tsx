@@ -31,7 +31,7 @@ const Footer = () => {
               <li><Link to="/downloads" className="hover:text-primary-foreground transition-colors">Get the App</Link></li>
               <li><a href="#" className="hover:text-primary-foreground transition-colors">About</a></li>
               <li><Link to="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="hover:text-primary-foreground transition-colors">Terms of Use</Link></li>
+              <li><Link to="/terms-of-service" className="hover:text-primary-foreground transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
           

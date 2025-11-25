@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
             <li>Send push notifications, SMS, or email updates about pet alerts, safety tips, and service changes.</li>
             <li>Improve performance, train AI identification models, debug issues, and develop new capabilities.</li>
             <li>Protect the platform by detecting fraud, abuse, or security threats.</li>
-            <li>Comply with legal obligations, resolve disputes, and enforce our Terms of Use.</li>
+            <li>Comply with legal obligations, resolve disputes, and enforce our Terms of Service.</li>
           </ul>
         </section>
 
